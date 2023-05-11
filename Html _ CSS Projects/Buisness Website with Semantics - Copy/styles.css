@@ -1,0 +1,199 @@
+/* Header */
+header{
+    position: sticky;
+    top: 0;
+    float: left;
+}
+
+.lines{
+    background-color: gray;
+    border: 3px solid gray;
+    margin-bottom: 2px;
+    width: 25%;
+}
+nav > div > ul > li > a{
+    display: none;
+    font-weight: bold;
+    color: #ff01b3;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 8px;
+    background: #8EEC8E;
+    text-decoration: none;
+}
+nav > ul > li > ul > li > a{
+    display: none;
+    font-weight: bold;
+    color: #ff01b3;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 8px;
+}
+a:hover{
+    color: blue;
+}
+.title{
+    color: red;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+}
+.pagetitle{
+    text-align: center;
+    color: red;
+}
+/* main */
+body{
+    background-color: rgba(245, 205, 245, 0.800);
+}
+main{
+    font-size: 24px;
+}
+/* Footer */
+footer{
+    text-align: center;
+    background-color: #8EEC8E;
+}
+footer > a:link{
+    text-decoration: none;
+    color: #ff01b3;
+    font-size: 24px;
+    font-weight: bold;
+}
+footer > a:visited{
+    text-decoration: none;
+    color: #ff01b3;
+    font-size: 24px;
+}
+/* RWD */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Phone Styles */
+.topRow{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.bottomRow{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.wrapper{
+    width: 100%;
+}
+nav > a{
+    font-size: 24px;
+}
+.pagetitle{
+    font-size: 24px;
+}
+/* Tablet Styles */
+@media only screen and (min-width: 768px){
+    header{
+        position: relative;
+        text-align: left;
+    }
+    nav > a{
+        font-size: 2rem;
+    }
+    .topRow{
+        padding-top: 20px;
+        padding-left: 55px;
+        display: inline;
+        float: left;
+    }
+    .bottomRow{
+        padding-top: 15px;
+        padding-right: 80px;
+        display: inline;
+        float: right;
+    }
+    footer{
+        display: none;
+    }
+    .pagetitle{
+        font-size: 26px;
+    }
+    .lines:hover > nav{
+        display: none;
+        display: none;
+        font-weight: bold;
+        color: #ff01b3;
+        font-size: 2rem;
+        text-decoration: none;
+        margin: 8px;
+        background: #8EEC8E;
+        text-decoration: none;
+    }
+    nav > div > ul > li > a:hover{
+        display: none;
+        font-weight: bold;
+        color: #ff01b3;
+        font-size: 2rem;
+        text-decoration: none;
+        margin: 8px;
+        background: #8EEC8E;
+        text-decoration: none;
+    }
+}
+/* Monitor Styles that are bigger than 1000px and smaller than 1439px */
+@media only screen and (min-width: 1000px){
+    .topRow{
+        padding-top: 10px;
+        padding-left: 115px;
+    }
+    .bottomRow{
+        padding-top: 10px;
+        padding-right: 130px;
+        margin-right: 15px;
+    }
+}
+/* Monitor Styles that are bigger than 1439px and smaller than 2559px */
+@media only screen and (min-width: 1440px){
+    .topRow{
+        padding-top: 30px;
+        padding-left: 250px;
+    }
+    .bottomRow{
+        padding-top: 20px;
+        padding-right: 225px;
+    }
+}
+/* My default screen styles(1600px - 2559px) */
+@media only screen and (min-width: 1600px){
+    .topRow{
+        padding-top: 30px;
+        padding-left: 250px;
+        padding-right: 50px;
+    }
+    .bottomRow{
+        padding-top: 20px;
+        padding-right: 270px;
+    }
+}
+/* Monitor Styles that are bigger than 2560*/
+@media only screen and (min-width: 2560px){
+    nav > a{
+        font-size: 44px;
+    }
+    .topRow{
+        padding-left: 390px;
+        margin-left: 0px;
+        padding-top: 30px;
+        padding-right: 80px;
+        font-size: 36px;
+    }
+    .bottomRow{
+        padding-top: 20px;
+        padding-right: 480px;
+        font-size: 36px;
+    }
+    button{
+        font-size: 24px;
+    }
+    .pagetitle{
+        font-size: 36px;
+    }
+}

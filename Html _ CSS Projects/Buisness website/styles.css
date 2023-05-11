@@ -1,0 +1,62 @@
+/* Header */
+nav{
+    background: #8EEC8E;
+    text-decoration: none;
+    text-align: center;
+}
+nav > a{
+    font-weight: bold;
+    color: #ff01b3;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 8px;
+}
+a:hover{
+    color: blue;
+}
+.title{
+    color: red;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+}
+.pagetitle{
+    text-align: center;
+    color: red;
+}
+
+/* main */
+body{
+    background-color: rgba(245, 205, 245, 0.527);
+}
+main{
+    font-size: 24px;
+}   
+/* Gets the aspect ratio that is 8/5 and bigger */
+@media (min-aspect-ratio: 8/5){
+    td{
+        padding-left: 115px;
+        padding-right: 115px;
+    }
+    
+}
+/* Gets the aspect ratio that is 3/2 and smaller  */
+@media  (max-aspect-ratio: 3/2){
+    td{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+td{
+    /* border: 1px black solid; */
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+    padding-top: 10px;
+}
+
+table{
+    /* Centers table */
+    margin-left: auto;
+    margin-right: auto;
+} 

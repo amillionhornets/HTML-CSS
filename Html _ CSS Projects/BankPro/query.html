@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <main>
+        <h3>Query</h3>
+        <div id="cont">
+            
+                <fieldset>
+                    <legend>From Account Number</legend>
+                    <input type="text">
+                    <br>
+                    <textarea name="AccountNums"cols="19" rows="15"></textarea>
+                </fieldset>
+                <fieldset>
+                    <fieldset>
+                    <legend>Customer Details</legend>
+                    <label  for="fname">First Name</label><input type="text">
+                    <br>
+                    <label for="lname">Last Name</label>
+                    <input type="text"><br>
+                    <label for="gender">Gender</label>
+                    <input type="text"><br>
+                    <label for="acctype">Account Type</label>
+                    <input type="text"><br>
+                    <label for="bal">Balance</label>
+                    <input type="text">
+                    
+                </fieldset>
+                <fieldset>
+                        <legend>Customer Query</legend>
+                        <label for="date">Date</label>
+                        <input type="date"><br>
+                        <label for="query">Query</label>
+                        <input type="text" size="25">
+                    </fieldset>
+                </fieldset>
+
+                <fieldset class="accDetails">
+                    <legend>Cutomer Picture</legend>
+                    <img src="#" alt="">
+                </fieldset>
+            
+        </div>
+    </main>
+    <footer>
+        <nav>
+        <form action="http://127.0.0.1:5500/transfer.html">
+        <button>Transfers</button>
+        </form>
+        <form action="http://127.0.0.1:5500/customers.html"><button>Customers</button> </form>
+    </nav>
+    </footer>
+    
+</body>
+</html>

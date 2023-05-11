@@ -1,0 +1,61 @@
+/* Table Borders */
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    font-weight: normal;
+    border: 1px black solid;
+}
+
+td{
+    height: 25px;
+    width: 25px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: rgba(189, 238, 208, 0.726);
+}
+
+/* th Styles */
+.topTH{
+    height: 150px;
+}
+
+#rotate > p{
+    transform: rotate(-90deg);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Bolds Borders */
+.desktop , .mobileDevice{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px none;
+}
+
+.empty{
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: 2px solid black;
+}
+
+.emptyth{
+    border-top: none;
+    border-left: none;
+    border-right: 2px solid black;
+}
+
+.row > th{
+    text-align: left;
+    width: 150px;
+    border-left: none;
+    border-right: 2px solid black;
+}
+
+#bold, .bold{
+    border-right: 2px solid black;
+}

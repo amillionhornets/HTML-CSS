@@ -1,0 +1,35 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.navbar > a{
+    color: white;
+}
+.websiteName{
+    font-family: 'Playball', cursive;
+}
+body{
+    background: rgb(248, 231, 217);
+}
+.navbar{
+    background-color: rgba(253, 0, 0, 0.75);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin: 8px;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color: blue;
+}
+header{
+    text-align: center;
+}
+
+footer > nav{
+    
+    font-size: 20px;
+    color: red;
+}

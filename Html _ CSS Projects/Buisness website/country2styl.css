@@ -1,0 +1,33 @@
+
+
+@media (min-aspect-ratio: 8/5){
+    .topRow{
+    display: inline-block;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    }
+    .bottomRow{
+    display: inline-block;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    }
+}
+
+@media  (max-aspect-ratio: 3/2){
+    .bottomRow{
+    display: inline-block;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    .topRow{
+    display: inline-block;
+    text-align: center;
+    padding-left: 15x;
+    padding-right: 15px;
+    }
+}
+
+

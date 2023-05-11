@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <svg width="500" height="500">
+        <!-- Back Face -->
+        <circle cx="250" cy="250" r="100" fill="black"></circle>
+        <circle cx="150" cy="150" r="50" fill="black"></circle>
+        <circle cx="350" cy="150" r="50" fill="black"></circle>
+
+        <!-- Front Face --> 
+        <ellipse cx="220" cy="230" rx="45" ry="75" fill="tan"></ellipse>
+        <ellipse cx="280" cy="230" rx="45" ry="75" fill="tan"></ellipse>
+        <ellipse cx="280" cy="290" rx="70" ry="40" fill="tan"  ></ellipse>
+        <ellipse cx="220" cy="290" rx="70" ry="40" fill="tan"  ></ellipse>
+        <circle cx="250" cy="290" r="60" fill="tan"></circle>
+
+        <!-- Eyes -->
+        <ellipse cx="220" cy="230" rx="15" ry="40" fill="white" style="stroke: black;stroke-width: 3px;"></ellipse>
+        <ellipse cx="280" cy="230" rx="15" ry="40" fill="white" style="stroke: black;stroke-width: 3px;"></ellipse>
+        <ellipse cx="275" cy="250" rx="5" ry="12" fill="black" style="stroke: black;stroke-width: 3px;"></ellipse>
+        <ellipse cx="225" cy="250" rx="5" ry="12" fill="black" style="stroke: black;stroke-width: 3px;"></ellipse>
+
+        <!-- Nose + Line? -->
+        <path d="M 220 280 q 30 -50 60 0" stroke="black" style="stroke-width:3px"  fill="none"></path>
+        <ellipse cx="250" cy="280" rx="25" ry="20" fill="black"></ellipse>
+
+        <!-- Mouth -->
+        <path d="M 170 285 q 90 60 160 0" stroke="black" style="stroke-width:2px"  fill="none"></path>
+        <path d="M 220 310 q 30 50 60 0" stroke="black" style="stroke-width:3px"  fill="black"></path>
+
+        <!-- Tongue -->
+        <ellipse cx="250" cy="325" rx="15" ry="10" fill="pink" style="stroke: black;stroke-width: 3px;"></ellipse>
+    </svg>
+</body>
+</html>

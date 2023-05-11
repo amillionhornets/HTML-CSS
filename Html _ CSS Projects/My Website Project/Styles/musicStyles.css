@@ -1,0 +1,23 @@
+
+
+
+
+article > h2{
+    color: #f00;
+    font-size: 1rem;
+}
+
+main{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.top3Bands > h3{
+    font-size: 2rem;
+    color: red;
+}
+.top3Bands{
+    font-size: 24px;
+}
+a{
+    color: black;
+}

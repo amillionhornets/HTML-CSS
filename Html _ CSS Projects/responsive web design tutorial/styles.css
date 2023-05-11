@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Phone Styles */
+.wrapper{
+    width: 100%;
+}
+/* removes the banner from phone display */
+/* looks cleaner than having a giant banner taking up the phone's screen */
+.img-banner{
+    display: none;
+}
+.img-info{
+    width: 100%;
+}
+/* Styles for the heading 2 element */
+.img-info h2{
+    width: 100%;
+    padding: 30px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #111;
+    line-height: 44px;
+}
+/* Styles for the para elements */
+.img-info p{
+    width: 100%;
+    padding: 0px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+}
+/* The silly man img styles */
+.img-me{
+    width: 100%;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px){
+    /* reintroduces the banner in the tablet screen */
+    .img-banner{
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    /* makes the wrapper div 600px and centers it on the screen */
+    .wrapper{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .img-info h2{
+        padding: 20px 0px 0px;
+    }
+    .img-info p{
+        padding: 20px 0px 0px;
+    }
+    .img-me{
+        padding-top: 30px;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1000px){
+    /* Extends the wrapper to 1000px */
+    .wrapper{
+        width: 1000px;
+    }
+    .img-info{
+        width: 50%;
+        float: right;
+    }
+    .img-info h2{
+        padding: 20px 0px 0px 30px;
+    }
+    .img-info p{
+        padding: 20px 0px 0px 30px;
+    }
+    .img-me{
+        padding-top: 0px;
+        width: 50%;
+        float: left;
+    }
+    /* gave the banner a max height and some extra padding bottom */
+    .img-banner{
+        height: 300px;
+        width: 100%;
+        padding-bottom: 35px;
+    }
+}

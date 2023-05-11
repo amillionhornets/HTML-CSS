@@ -1,0 +1,34 @@
+
+#cont{
+    height: 320px;
+    
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#cont > fieldset{
+    float: left;
+    clear: none;
+    display: inline;
+    height: 100%;
+    box-sizing: border-box;
+}
+.accDetails{
+    width: 150px;
+    
+}
+.contbut{
+    display: inline;
+}
+
+input{
+    display: table-cell;
+    vertical-align: middle;
+} 
+nav{
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+}
